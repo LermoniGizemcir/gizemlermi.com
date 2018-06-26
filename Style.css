@@ -1,0 +1,27 @@
+#foto1{
+    height:150px;
+    border-radius: 75px;
+}
+.yuvarlak{
+    height: 100px;
+    width: 100px;
+    line-height: 100px; /*satır yüksekliği*/
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#egitim{
+    background-color: lightyellow;
+}
+#deneyim{
+    background-color: lightblue;
+}
+#hobi{
+    background-color: lightpink;
+}
+.yuvarlak span{
+    margin-top:50px;
+}
