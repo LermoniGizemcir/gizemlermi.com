@@ -11,51 +11,65 @@
 
         <title>Hello, Gizoşcum!</title>
     </head>
-    <body>
+    <body class="body">
+        <div class=" offset-md-1 col-md-11">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Anasayfa <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Özgeçmişim</a>
-                    <a class="nav-item nav-link" href="#">Blog</a>
-                    <a class="nav-item nav-link" href="#">İletişim</a>
+                <div class="navbar-nav col-md-12">
+                    <a class="nav-item nav-link col-md-6"><p class="font01 h1">Gizem Lermi</p><br><p class="font02">Bilgisayar Mühendisi</p></a>
+                    <a class="nav-item nav-link active col-md-2" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link col-md-2 " href="#">Özgeçmişim</a>
+                    <a class="nav-item nav-link col-md-2" href="#">Blog</a>
                 </div>
             </div>
         </nav>
+        <div class="space"></div>
         <div class="row">
             <img class="col-md-4" id='foto1' src='000046.JPG'></img>
             <div class="col-md-2"></div>
             <div class="col-md-6">
-                <h1>Gizem Lermi</h1><br>
-                <h2>O bir Bilgisayar Mühendisi...</h2>
                 <div class="row">
-                    <div class="yuvarlak col-md-3 col-sm-12" id='egitim' ><span>Eğitim</span></div>
-                    <div class="yuvarlak col-md-3 col-sm-12" id='deneyim'><span>Deneyim</span></div>
-                    <div class="yuvarlak col-md-3 col-sm-12" id='hobi' ><span>Hobi</span></div>
-                    <div class="yuvarlak col-md-3 col-sm-12" id='hobi' ><span>Hobi</span></div>
+                    <div class="yuvarlak col-md-4 col-sm-12 egitimdiv" id='egitim' ><span>Eğitim</span></div>
+                    <div class="yuvarlak col-md-4 col-sm-12 deneyimdiv" id='deneyim'><span>Deneyim</span></div>
+                    <div class="yuvarlak col-md-4 col-sm-12 hobidiv" id='hobi' ><span>Hobi</span></div>
                 </div>
+                <div class="space"></div>
                 <div class="row">
                     <span class="col-md-9">
-                        Bu bir paragraftır. Kolayca düzenlemek 
-                        ve metin eklemek için tıklayın. Metin 
-                        Düzenleye yada buraya çift tıklayarak 
-                        içerik ekleyip, yazı tipini değiştire-
-                        bilirsiniz. Sayfanızda istediğiniz yere 
-                        sürükleyip bırakabilirsiniz. Hikayenizi 
-                        anlatıp kullanıcılarınıza kendiniz hakkında
-                        daha fazla bilgi verebilirsiniz.
+                        Merhaba ! <br>
+                         Kişisel web sayfama hoşgeldiniz.
+                         Hakkımda daha fazla bilgiye ulaşabilmeniz için
+                         yukarıdaki yuvarlaklar sizi seve seve yönlendirecektir.
                     </span>
                 </div>
             </div>
         </div>
-
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
+    <footer>
+        <div class="space"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav col-md-12">               
+                <li class="nav-item col-md-2">
+                  <a class="nav-link" href="#">İletişim</a>
+                </li>
+                <li class="nav-item col-md-2">
+                  <a class="nav-link" href="#">Beni Takip Edin</a>
+                </li>
+                <li class="nav-item col-md-2">
+                        <li class="nav-item ">
+                  <a class="nav-link disabled" href="#">2018 by Gizem Lermi</a>
+                </li>
+              </ul>
+            </div>
+          </nav>   
+    </footer>
 </html>

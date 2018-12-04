@@ -1,27 +1,100 @@
 #foto1{
-    height:150px;
-    border-radius: 75px;
+    height:400px;
+    border-radius: 400px;    
+    object-fit: cover;
 }
 .yuvarlak{
     height: 100px;
     width: 100px;
+    object-fit: cover;
     line-height: 100px; /*satır yüksekliği*/
-    border-radius: 50px;
     color: white;
     text-align: center;
     vertical-align: middle;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;  
 }
 #egitim{
-    background-color: lightyellow;
+    background-color: rgba(209, 200, 37, 1);
+    border: solid rgba(209, 200, 37, 1) 0px;
+    border-radius: 50%;
+    position: absolute;
 }
 #deneyim{
-    background-color: lightblue;
+    background-color: rgba(97, 207, 211, 1);
+    border: solid rgba(97, 207, 211, 1) 0px;
+    border-radius: 50%; 
+    position: absolute;
 }
 #hobi{
-    background-color: lightpink;
+    background-color: rgba(232, 53, 86, 1);
+    border: solid rgba(232, 53, 86, 1) 0px;
+    border-radius: 50%;
+    position: absolute;
 }
 .yuvarlak span{
     margin-top:50px;
+}
+.body{
+        color: #20303c;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        letter-spacing: .4px;
+        font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #f9fafa;
+}
+.space{
+    height: 60px;
+    width: 60px;
+}
+.font01{
+    font: normal normal bold 43px/1.2em 'Noticia Text',serif;
+    color: rgba(77,77,77,1);
+}
+.font02{
+    line-height:1.2em;
+    font: normal normal normal 17px/1.2em 'Noticia Text',serif;
+    color: rgba(77,77,77,1);
+}
+.h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.egitimdiv{
+    left: 134px;
+    position: absolute;
+    top: 207px;
+    height: 130px;
+    min-height: 15px;
+    width: 130px;
+}
+.deneyimdiv{
+    left: 0px;
+    position: absolute;
+    top: 207px;
+    height: 130px;
+    min-height: 15px;
+    width: 130px;
+}
+.hobidiv{
+    left: 269px;
+    position: absolute;
+    top: 210px;
+    height: 130px;
+    min-height: 15px;
+    width: 130px;
 }
