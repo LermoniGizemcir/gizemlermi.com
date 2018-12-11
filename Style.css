@@ -62,7 +62,21 @@
 }
 .font02{
     line-height:1.2em;
-    font: normal normal normal 17px/1.2em 'Noticia Text',serif;
+    font: normal normal normal 20px/1.2em 'Noticia Text',serif;
+    color: rgba(77,77,77,1);
+}
+.font03 {
+    font: normal normal normal 80px/1.2em 'Noticia Text',serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 80px;
+    line-height: 1.2em;
+    font-family: "Noticia Text", serif;
     color: rgba(77,77,77,1);
 }
 .h1 {
