@@ -1,0 +1,46 @@
+.hl1 {
+    box-sizing: border-box;
+    border-top: 1px solid rgba(139, 139, 139, 1);
+    transform-origin: center 0.5px 0px; 
+    left: 77px; 
+    width: 595px; 
+    position: absolute; 
+    top: 150px; 
+    height: 5px
+}
+#FvGrdLn0 {
+    margin-left: calc((100% - 980px) * 0.5);
+}
+.yuvarlakdiv{
+    left: 0px;
+    position: absolute;
+    top: 207px;
+    height: 130px;
+    min-height: 15px;
+    width: 130px;
+}
+#yuvarlak{
+    background-color: rgba(209, 200, 37, 1);
+    border: solid rgba(209, 200, 37, 1) 0px;
+    border-radius: 50%;
+    position: absolute;
+}
+space{
+    height: 120px;
+    width: 120px;
+}
+.yuvarlak{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    line-height: 100px; /*satır yüksekliği*/
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;  
+}
